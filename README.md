@@ -1,8 +1,8 @@
 
 
-![ash](neofox.svg)
+![ash](/neofox.svg)
 
-![Neofox](header.svg)
+![Neofox](/header.svg)
 
 
 
