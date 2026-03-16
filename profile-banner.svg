@@ -1,17 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid slice">
   <title id="title">its-ash profile banner</title>
-  <desc id="desc">Futuristic neon grid banner with title and subtitle.</desc>
+  <desc id="desc">Futuristic neon grid banner with animated title and status.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070f"/>
-      <stop offset="55%" stop-color="#09152a"/>
-      <stop offset="100%" stop-color="#12070f"/>
+      <stop offset="0%" stop-color="#05070f">
+        <animate attributeName="stop-color" values="#05070f;#071024;#05070f" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#09152a">
+        <animate attributeName="stop-color" values="#09152a;#0b2a3f;#09152a" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#12070f">
+        <animate attributeName="stop-color" values="#12070f;#22041a;#12070f" dur="14s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
     <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00eaff"/>
-      <stop offset="50%" stop-color="#36ffc9"/>
-      <stop offset="100%" stop-color="#ff8f00"/>
+      <stop offset="0%" stop-color="#00eaff">
+        <animate attributeName="stop-color" values="#00eaff;#36ffc9;#ff8f00;#00eaff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#36ffc9">
+        <animate attributeName="stop-color" values="#36ffc9;#ff8f00;#00eaff;#36ffc9" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff8f00">
+        <animate attributeName="stop-color" values="#ff8f00;#00eaff;#36ffc9;#ff8f00" dur="6s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <linearGradient id="scanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#7fffd4" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2.8" result="blur"/>
       <feMerge>
@@ -19,37 +41,80 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
       <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#11c0d4" stroke-opacity="0.13" stroke-width="1"/>
     </pattern>
   </defs>
 
   <rect width="1200" height="360" fill="url(#bg)"/>
-  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.75"/>
 
-  <g opacity="0.55">
-    <circle cx="180" cy="70" r="2" fill="#00f5ff"/>
-    <circle cx="260" cy="120" r="1.5" fill="#36ffc9"/>
-    <circle cx="980" cy="92" r="2" fill="#ff8f00"/>
-    <circle cx="1060" cy="40" r="1.6" fill="#00f5ff"/>
-    <circle cx="1120" cy="140" r="1.6" fill="#36ffc9"/>
+  <!-- moving scan band -->
+  <rect id="scanRect" x="-420" y="0" width="420" height="360" fill="url(#scanGradient)" opacity="0.35" >
+    <animateTransform attributeName="transform" type="translate" from="-420 0" to="1200 0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtle stars with gentle pulsing and drift -->
+  <g opacity="0.9">
+    <circle cx="180" cy="70" r="2" fill="#00f5ff">
+      <animate attributeName="r" values="1.2;2.8;1.8" dur="3.6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -2;0 0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="120" r="1.5" fill="#36ffc9">
+      <animate attributeName="r" values="1;2.6;1.4" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-3 2;0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="92" r="2" fill="#ff8f00">
+      <animate attributeName="r" values="1.5;3;1.5" dur="3.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;4 -1;0 0" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="40" r="1.6" fill="#00f5ff">
+      <animate attributeName="r" values="1;2.8;1.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="140" r="1.6" fill="#36ffc9">
+      <animate attributeName="r" values="1;2.8;1.2" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
+  <!-- glowing horizon lines with moving dash to simulate scan -->
   <g filter="url(#glow)">
-    <line x1="70" y1="82" x2="1130" y2="82" stroke="url(#line)" stroke-width="2"/>
-    <line x1="70" y1="278" x2="1130" y2="278" stroke="url(#line)" stroke-width="2"/>
+    <line x1="70" y1="82" x2="1130" y2="82" stroke="url(#line)" stroke-width="2" stroke-linecap="round" stroke-dasharray="12 24">
+      <animate attributeName="stroke-dashoffset" from="0" to="-360" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.95;0.7;0.95" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="70" y1="278" x2="1130" y2="278" stroke="url(#line)" stroke-width="2" stroke-linecap="round" stroke-dasharray="16 20">
+      <animate attributeName="stroke-dashoffset" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.6;0.9" dur="8s" repeatCount="indefinite"/>
+    </line>
   </g>
 
-  <text x="80" y="170" fill="#e6fbff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="2">
-    ITS-ASH
-  </text>
-  <text x="80" y="215" fill="#7cf4ff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="1.2">
-    FULL-STACK DEVELOPER  //  PERFORMANCE + PRIVACY + DX
-  </text>
+  <!-- title with gentle pulse and lift -->
+  <g id="titleGroup" transform="translate(0,0)">
+    <text x="80" y="170" fill="#e6fbff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="2">
+      ITS-ASH
+      <animate attributeName="opacity" values="1;0.96;1" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="80" y="215" fill="#7cf4ff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="1.2">
+      FULL-STACK DEVELOPER  //  PERFORMANCE + PRIVACY + DX
+      <animate attributeName="opacity" values="0.98;0.85;0.98" dur="5s" repeatCount="indefinite"/>
+    </text>
+  </g>
 
+  <!-- status panel with pulsing ONLINE indicator -->
   <g transform="translate(830 128)">
     <rect x="0" y="0" width="320" height="100" rx="12" fill="#0a1021" stroke="#1ce7ff" stroke-opacity="0.65"/>
     <text x="20" y="38" fill="#39f0ff" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="18">SYSTEM STATUS</text>
-    <text x="20" y="70" fill="#f7b24b" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">ONLINE</text>
+    <text id="statusText" x="20" y="70" fill="#f7b24b" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">ONLINE
+      <animate attributeName="fill" values="#f7b24b;#ffd76b;#f7b24b" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.85;1" dur="1.6s" repeatCount="indefinite"/>
+    </text>
+    <circle cx="282" cy="38" r="6" fill="#39f0ff" opacity="0.95">
+      <animate attributeName="r" values="6;10;6" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#39f0ff;#1ef0b5;#39f0ff" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
   </g>
+
 </svg>
