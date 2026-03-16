@@ -41,6 +41,18 @@
 	<img src="https://img.shields.io/badge/Django-121212?style=for-the-badge&logo=django&logoColor=89F0C4" alt="Django" />
 </p>
 
+## IoT & Edge
+
+<p>
+	<img src="https://img.shields.io/badge/IoT-121212?style=for-the-badge" alt="IoT" />
+	<img src="https://img.shields.io/badge/MQTT-121212?style=for-the-badge" alt="MQTT" />
+	<img src="https://img.shields.io/badge/ESP32-121212?style=for-the-badge" alt="ESP32" />
+	<img src="https://img.shields.io/badge/Raspberry%20Pi-121212?style=for-the-badge&logo=raspberry-pi" alt="Raspberry Pi" />
+	<img src="https://img.shields.io/badge/Home%20Assistant-121212?style=for-the-badge&logo=home-assistant" alt="Home Assistant" />
+	<img src="https://img.shields.io/badge/PlatformIO-121212?style=for-the-badge&logo=platformio" alt="PlatformIO" />
+	<img src="https://img.shields.io/badge/LoRaWAN-121212?style=for-the-badge" alt="LoRaWAN" />
+</p>
+
 ## Focus Areas
 
 | Track | Mission |
