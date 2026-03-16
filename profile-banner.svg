@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">its-ash profile banner</title>
+  <desc id="desc">Futuristic neon grid banner with title and subtitle.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="55%" stop-color="#09152a"/>
+      <stop offset="100%" stop-color="#12070f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="50%" stop-color="#36ffc9"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#11c0d4" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <g opacity="0.55">
+    <circle cx="180" cy="70" r="2" fill="#00f5ff"/>
+    <circle cx="260" cy="120" r="1.5" fill="#36ffc9"/>
+    <circle cx="980" cy="92" r="2" fill="#ff8f00"/>
+    <circle cx="1060" cy="40" r="1.6" fill="#00f5ff"/>
+    <circle cx="1120" cy="140" r="1.6" fill="#36ffc9"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <line x1="70" y1="82" x2="1130" y2="82" stroke="url(#line)" stroke-width="2"/>
+    <line x1="70" y1="278" x2="1130" y2="278" stroke="url(#line)" stroke-width="2"/>
+  </g>
+
+  <text x="80" y="170" fill="#e6fbff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="2">
+    ITS-ASH
+  </text>
+  <text x="80" y="215" fill="#7cf4ff" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="1.2">
+    FULL-STACK DEVELOPER  //  PERFORMANCE + PRIVACY + DX
+  </text>
+
+  <g transform="translate(830 128)">
+    <rect x="0" y="0" width="320" height="100" rx="12" fill="#0a1021" stroke="#1ce7ff" stroke-opacity="0.65"/>
+    <text x="20" y="38" fill="#39f0ff" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="18">SYSTEM STATUS</text>
+    <text x="20" y="70" fill="#f7b24b" font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="20">ONLINE</text>
+  </g>
+</svg>
