@@ -80,7 +80,3 @@ Explore:
 <p>
 	<img src="https://streak-stats.demolab.com?user=its-ash&background=0D1117&ring=00F5FF&fire=FF8F00&currStreakLabel=00F5FF&sideNums=E6EDF3&sideLabels=9FB3C8&dates=8EA4BA&stroke=00B7CC" alt="GitHub streak" />
 </p>
-
-<p align="center">
-	<sub>Design language: neon sci-fi + practical engineering.</sub>
-</p>
