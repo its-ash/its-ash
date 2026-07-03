@@ -101,11 +101,6 @@ Ash Tools is a privacy-first workspace of browser tools for media, documents, an
 ## 📊 GitHub Signal
 
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=its-ash&show_icons=true&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&icon_color=ff8f00&border_color=00b7cc&theme=transparent&count_private=true&include_all_commits=true" alt="GitHub stats" height="180" />
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=its-ash&layout=compact&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&border_color=00b7cc&langs_count=8" alt="Top languages" height="180" />
-</p>
-
-<p align="center">
 	<img src="https://streak-stats.demolab.com?user=its-ash&background=0D1117&ring=00F5FF&fire=FF8F00&currStreakLabel=00F5FF&sideNums=E6EDF3&sideLabels=9FB3C8&dates=8EA4BA&stroke=00B7CC" alt="GitHub streak" />
 </p>
 
