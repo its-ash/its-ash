@@ -2,14 +2,12 @@
 	<img src="./profile-banner.svg" alt="its-ash cyber profile banner" width="100%" />
 </div>
 
-<h1 align="center">SYSTEM ONLINE // Ashvini Jangid</h1>
+<h1 align="center">
+	<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=SYSTEM+ONLINE+%3A%3A+Ashvini+Jangid;Full-Stack+Developer;Privacy-First+Tooling+Builder;WebAssembly+%7C+Rust+%7C+Node.js+%7C+React+%7C+Vue" alt="Typing intro" />
+</h1>
 
 <p align="center">
-	Building products that stay fast, clear, and reliable at scale.
-</p>
-
-<p align="center">
-	<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=23&pause=1100&color=00F5FF&center=true&vCenter=true&width=980&lines=Full-Stack+Developer;Privacy-First+Tooling+Builder;WebAssembly+%7C+Rust+%7C+Node.js+%7C+React+%7C+Vue" alt="Typing intro" />
+	<i>Building products that stay fast, clear, and reliable at scale.</i>
 </p>
 
 <p align="center">
@@ -20,13 +18,32 @@
 	<img src="https://komarev.com/ghpvc/?username=its-ash&label=Profile%20Views&color=00b7cc&style=for-the-badge" alt="Profile views" />
 </p>
 
-## Who I Am
+---
 
-- I ship practical software across frontend, backend, and developer tooling.
-- I focus on performance, maintainability, and shipping speed without quality trade-offs.
-- I prefer clear architecture, measurable outcomes, and low operational drag.
+<img src="https://github.com/its-ash/its-ash/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
 
-## Core Stack
+---
+
+## 🧬 Who I Am
+
+```yaml
+name: Ashvini Jangid
+role: Full-Stack Developer
+location: India
+focus: Performance | Privacy | Developer Experience
+languages: JavaScript, TypeScript, Rust, Go, Python
+currently_learning: WebGPU + Distributed Systems
+ask_me_about: Browser tooling, edge computing, IoT
+```
+
+- 🛠️ I ship practical software across frontend, backend, and developer tooling.
+- ⚡ I focus on performance, maintainability, and shipping speed — no quality trade-offs.
+- 🏗️ I prefer clear architecture, measurable outcomes, and low operational drag.
+- 🔒 Privacy-first advocate — your data stays on your device.
+
+---
+
+## 🧰 Core Stack
 
 <p>
 	<img src="https://img.shields.io/badge/JavaScript-121212?style=for-the-badge&logo=javascript&logoColor=FFD93D" alt="JavaScript" />
@@ -41,7 +58,7 @@
 	<img src="https://img.shields.io/badge/Django-121212?style=for-the-badge&logo=django&logoColor=89F0C4" alt="Django" />
 </p>
 
-## IoT & Edge
+## 📡 IoT & Edge
 
 <p>
 	<img src="https://img.shields.io/badge/IoT-121212?style=for-the-badge" alt="IoT" />
@@ -53,42 +70,84 @@
 	<img src="https://img.shields.io/badge/LoRaWAN-121212?style=for-the-badge" alt="LoRaWAN" />
 </p>
 
-## Focus Areas
+---
+
+## 🎯 Focus Areas
 
 | Track | Mission |
 |---|---|
-| Frontend Systems | Accessible interfaces, meaningful motion, and production-grade performance tuning. |
-| Backend Platforms | APIs and service boundaries designed for observability and predictable scaling. |
-| Developer Experience | Tooling and CI guardrails that reduce friction and keep teams shipping. |
+| 🖥️ Frontend Systems | Accessible interfaces, meaningful motion, and production-grade performance tuning. |
+| ⚙️ Backend Platforms | APIs and service boundaries designed for observability and predictable scaling. |
+| 🔧 Developer Experience | Tooling and CI guardrails that reduce friction and keep teams shipping. |
+| 🔌 IoT & Edge | Embedded systems, MQTT pipelines, and edge intelligence for real-world hardware. |
 
-## Featured Build // Ash Tools
+---
+
+## 🚀 Featured Build // Ash Tools
+
+<p>
+	<a href="https://ash-tools.store/"><img src="https://img.shields.io/badge/LIVE-ash--tools.store-00F5FF?style=for-the-badge&logo=cloudflarepages&logoColor=0A0A0A" alt="Ash Tools Live" /></a>
+	<a href="https://github.com/its-ash/ash-tools"><img src="https://img.shields.io/badge/SOURCE-ash--tools-FF8F00?style=for-the-badge&logo=github&logoColor=0A0A0A" alt="Ash Tools Source" /></a>
+</p>
 
 Ash Tools is a privacy-first workspace of browser tools for media, documents, and dev workflows.
 
-- Local-first processing with WebAssembly and WebGPU.
-- Built to run fast, with no upload required for sensitive files.
-- Includes tools like Video Studio, Image Editor, PDF Merger, Regex Generator, and Code Sandbox.
+- 🧠 Local-first processing with **WebAssembly** and **WebGPU**.
+- ⚡ Built to run fast — **no upload required** for sensitive files.
+- 🧰 Includes **Video Studio**, **Image Editor**, **PDF Merger**, **Regex Generator**, and **Code Sandbox**.
 
-Explore:
+---
 
-- Live platform: <a href="https://ash-tools.store/">ash-tools.store</a>
-- Source code: <a href="https://github.com/its-ash/ash-tools">github.com/its-ash/ash-tools</a>
+## 📊 GitHub Signal
 
-## Live Warp Gates
-
-- Portfolio: <a href="https://its-ash.github.io/">its-ash.github.io</a>
-- Projects: <a href="https://its-ash.github.io/project.html">its-ash.github.io/project.html</a>
-- Resume: <a href="https://its-ash.github.io/resume.pdf">its-ash.github.io/resume.pdf</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/ashvinijangid/">linkedin.com/in/ashvinijangid</a>
-- Email: <a href="mailto:ashvini.jangid@email.com">ashvini.jangid@email.com</a>
-
-## GitHub Signal
-
-<p>
-	<img src="https://github-readme-stats.vercel.app/api?username=its-ash&show_icons=true&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&icon_color=ff8f00&border_color=00b7cc" alt="GitHub stats" height="170" />
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=its-ash&layout=compact&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&border_color=00b7cc" alt="Top languages" height="170" />
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api?username=its-ash&show_icons=true&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&icon_color=ff8f00&border_color=00b7cc&theme=transparent&count_private=true&include_all_commits=true" alt="GitHub stats" height="180" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=its-ash&layout=compact&bg_color=0d1117&title_color=00f5ff&text_color=e6edf3&border_color=00b7cc&langs_count=8" alt="Top languages" height="180" />
 </p>
 
-<p>
+<p align="center">
 	<img src="https://streak-stats.demolab.com?user=its-ash&background=0D1117&ring=00F5FF&fire=FF8F00&currStreakLabel=00F5FF&sideNums=E6EDF3&sideLabels=9FB3C8&dates=8EA4BA&stroke=00B7CC" alt="GitHub streak" />
+</p>
+
+<p align="center">
+	<img src="https://github-readme-activity-graph.vercel.app/graph?username=its-ash&bg_color=0d1117&color=e6edf3&line=00f5ff&point=ff8f00&area=true&hide_border=true" alt="Activity graph" width="90%" />
+</p>
+
+---
+
+## 🔗 Live Warp Gates
+
+<table>
+	<tr>
+		<td align="center" width="33%">
+			<a href="https://its-ash.github.io/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FF8F00" alt="Portfolio" /></a>
+		</td>
+		<td align="center" width="33%">
+			<a href="https://its-ash.github.io/project.html"><img src="https://img.shields.io/badge/Projects-0A0A0A?style=for-the-badge&logo=github&logoColor=00F5FF" alt="Projects" /></a>
+		</td>
+		<td align="center" width="33%">
+			<a href="https://its-ash.github.io/resume.pdf"><img src="https://img.shields.io/badge/Resume-0A0A0A?style=for-the-badge&logo=adobeacrobatreader&logoColor=36FFC9" alt="Resume" /></a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" width="33%">
+			<a href="https://www.linkedin.com/in/ashvinijangid/"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=36FFC9" alt="LinkedIn" /></a>
+		</td>
+		<td align="center" width="33%">
+			<a href="https://ash-tools.store/"><img src="https://img.shields.io/badge/Ash%20Tools-0A0A0A?style=for-the-badge&logo=cloudflarepages&logoColor=00F5FF" alt="Ash Tools" /></a>
+		</td>
+		<td align="center" width="33%">
+			<a href="mailto:ashvini.jangid@email.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=FF8F00" alt="Email" /></a>
+		</td>
+	</tr>
+</table>
+
+---
+
+<div align="center">
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b7cc,100:00F5FF&height=100&section=footer" alt="Footer wave" width="100%" />
+</div>
+
+<p align="center">
+	<i>Thanks for stopping by ⭐ Star a repo if something helped you.</i>
 </p>
